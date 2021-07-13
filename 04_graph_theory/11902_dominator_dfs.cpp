@@ -14,7 +14,7 @@ char dominates[N][N];
 void dfs(int u) {
     visited[u] = 1;
     for (int v=0; v<n; v++) {
-        if (graph[u][v] && !visited[v]) dfs(v);    
+        if (graph[u][v] && !visited[v]) dfs (v);    
     }
 }
 
