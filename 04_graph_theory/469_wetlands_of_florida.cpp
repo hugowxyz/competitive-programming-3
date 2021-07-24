@@ -34,8 +34,7 @@ int main() {
         C = g[0].length();
         gc = g;
         do {
-            ss.clear();
-            ss.str(s);
+            ss.clear(); ss.str(s);
             ss >> r >> c;
             cout << floodfill(r-1, c-1) << "\n";
             g = gc;
